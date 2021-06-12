@@ -7,6 +7,9 @@
     <title>webout</title>
 </head>
 <style>
+    /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pacifico&family=Roboto+Condensed&family=Staatliches&display=swap');
+
     a:link { text-decoration: none;
     color: inherit ; } 
 
@@ -96,6 +99,7 @@ a:active { text-decoration: none; color: inherit ;}
     .lptexthead {
         position: relative;
         right:15%;
+        font-family: 'Oswald', sans-serif;
 
     }
 
@@ -104,6 +108,7 @@ a:active { text-decoration: none; color: inherit ;}
         right: 5%;
         height: 10px;
         width: 250px;
+        font-family: 'Staatliches', cursive;
     }
 
     @keyframes lp1 {
@@ -150,6 +155,7 @@ a:active { text-decoration: none; color: inherit ;}
         position: absolute;
         text-align: center;
         top: 120%;
+        font-family: 'Roboto Condensed', sans-serif;
     }
     .abouttvmdesc{
         font-size: 125%;
@@ -177,6 +183,7 @@ a:active { text-decoration: none; color: inherit ;}
         width: 35%;
         height: auto;
         left:45% ;
+        font-family: 'Roboto Condensed', sans-serif;
     }
     .ae2{
        position: absolute;
@@ -187,7 +194,10 @@ a:active { text-decoration: none; color: inherit ;}
         position: relative;
         width: 25%;
         height: auto;
-        left: 20%;}
+        left: 20%;
+        font-family: 'Roboto Condensed', sans-serif;
+
+        }
     .actexpHL{
         position:absolute;
         top: 19%;
@@ -199,6 +209,8 @@ a:active { text-decoration: none; color: inherit ;}
         width: 35%;
         height: auto;
         right:45% ;
+        font-family: 'Roboto Condensed', sans-serif;
+
     }
     .beachbg{
         position: absolute;
@@ -211,9 +223,11 @@ a:active { text-decoration: none; color: inherit ;}
     #beachbgtext{
         position: absolute;
         z-index: 10;
-        left: 36%;
+        left: 32%;
         top:360%;
         color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 3em;
     }
     .pinkybeach{
         position: absolute;
@@ -223,6 +237,7 @@ a:active { text-decoration: none; color: inherit ;}
         left: 0%;
         text-align: center;
         height: 60%;
+        color: #003462;
     }
     .pinkbeachpic{
             
@@ -260,6 +275,8 @@ a:active { text-decoration: none; color: inherit ;}
         width: 80%;
         height: auto;
         left:90% ;
+        font-family: 'Roboto Condensed', sans-serif;
+
     }
     .pagelinks:hover{
         transform: scale(1.2);
@@ -279,7 +296,16 @@ a:active { text-decoration: none; color: inherit ;}
         text-decoration: underline;
         transform: scale(1.1);
     }
-        
+
+    #hilit {
+        font-family: 'Oswald', sans-serif;
+        font-size:  1.6em;
+    } 
+
+    #puh {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1em;
+    }
 </style>
 
 <body>
@@ -288,7 +314,7 @@ a:active { text-decoration: none; color: inherit ;}
         <p class="nav2 clickablelinks"><a href="#zebeach">beach</a></p>
         <p class="nav3 clickablelinks"><a href="#high">highlights<a></p>
         <p class="nav4 clickablelinks"><a href="restaurant.html">cusine</a></p>
-        <p class="nav5 clickablelinks"><a href="#">attractions</a></p>
+        <p class="nav5 clickablelinks"><a href="attractions.html">attractions</a></p>
         
     </nav>
     <img src="pictures/alapuzha 2.jpg" alt="keralahome" class="landingpic">
@@ -308,7 +334,7 @@ a:active { text-decoration: none; color: inherit ;}
         <h2 id="high">Active exploring</h2>
         <br>
         <img src="pictures/temple.jpg" alt="temple" class="actexpimgleft">
-        <h3 class="actexpHR">heritage</h3>
+        <h3 class="actexpHR pagelinks">HERITAGE</h3>
         <p class="actexpdescright">The city of Thiruvananthapuram has been the centre of cultural activities of Kerala from the time it was made
         capital of Travancore in 1745. The capital city is a major intellectual and artistic center. The Thiruvananthapuram
         Museum and Thiruvananthapuram Zoo were started during the reign of Swathi Thirunal (1813–1847) and are one of the oldest
@@ -318,7 +344,7 @@ a:active { text-decoration: none; color: inherit ;}
     <div class="ae2">
         <br>
         <img src="pictures/ponmudi.jpg" alt="hill" class="actexpimgright">
-        <h3 class="actexpHL pagelinks">attraction</h3>
+        <h3 class="actexpHL pagelinks">ATTRACTION</h3>
         <p class="actexpdescleft">Thiruvananthapuram is a major tourist centre, known for the Padmanabhaswamy Temple, the
             beaches of Kovalam and Varkala,the backwaters of Poovar and Anchuthengu and its Western Ghats tracts of Ponmudi
             and the Agastya Mala.The Padmanabhaswamy Temple located at the heart of the city is known as the richest place
@@ -331,7 +357,7 @@ a:active { text-decoration: none; color: inherit ;}
 
     <br>
     <img src="pictures/rice.jpg" alt="rice" class="actexpimgleft2">
-    <h3 class="actexpHR2 pagelinks">cusine</h3>
+    <h3 class="actexpHR2 pagelinks">CUSINE</h3>
     <p class="actexpdescright2">Throughout Kerala, right from Kanyakumari to Kasaragode, “Sadya” is the general name given to a typical traditional
     Kerala meal. The cuisine in Thiruvananthapuram is no exception.Freshly prepared boiled rice is served on plantain
     leaves. Kaalan,Thoran are the most popular side dishes.Although the vegetarian dishes of Kerala are very popular, most
@@ -347,8 +373,8 @@ a:active { text-decoration: none; color: inherit ;}
     </div>
     <h2 id="beachbgtext">ONLY IN SUMMER, ONLY IN KOVALAM</h2>
     <div class="pinkybeach">
-        <h3>SUMMER HIGHLIGHTS</h3>
-        <h4>Out here, there's an endless array of events and adventures in store this summer.</h4>
+        <h3 id="hilit">SUMMER HIGHLIGHTS</h3>
+        <h4 id="puh">Out here, there's an endless array of events and adventures in store this summer.</h4>
         <div class="pinkbeachpics">
             <img src="pictures/beach6.jpg" alt="beach"  class="pinkbeachpic">
             <img src="pictures/beach3.jpg" alt="beach"class="pinkbeachpic">
