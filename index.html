@@ -1,0 +1,216 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webout</title>
+</head>
+<style>
+    nav {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        height: 50px;
+        opacity: 100%;
+        z-index: 1;
+        font-size: 110%;
+        color: rgb(247, 238, 238);
+
+    }
+
+    .nav1 {
+        position: absolute;
+        left: 20px;
+
+    }
+
+    .nav2 {
+        position: absolute;
+        left: 100px;
+    }
+
+    .nav3 {
+        position: absolute;
+        left: 200px;
+    }
+
+    .nav6 {
+        position: absolute;
+        right: 100px;
+        color: black;
+    }
+
+    .nav5 {
+        position: absolute;
+        right: 200px;
+        color: black;
+    }
+
+    .nav4 {
+        position: absolute;
+        right: 290px;
+        color: black;
+    }
+
+    .landingpic {
+        position: absolute;
+        left: 0%;
+        top: 0px;
+        width: 73%;
+        height: 106%;
+        /* 780px */
+        animation-name: lp1;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+
+
+    }
+
+    .lptext {
+
+        position: absolute;
+        left: 77%;
+        top: 35%;
+        text-align: left;
+        animation-name: lptext1;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        opacity: 0%;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+        padding: 1px;
+
+    }
+
+    .lptexthead {
+        position: relative;
+        right:15%;
+
+    }
+
+    .clsdesc {
+        position: absolute;
+        right: 5%;
+        height: 10px;
+        width: 250px;
+    }
+
+    @keyframes lp1 {
+        0% {
+            left: -50px;
+            opacity: 50%;
+        }
+
+        100% {
+            left: 0px;
+        }
+
+    }
+
+    @keyframes lptext1 {
+        from {
+            transform: translate3d(0, 50%, 0);
+            visibility: visible;
+        }
+
+        to {
+            transform: translate3d(0, 0, 0);
+            opacity: 100%;
+        }
+
+
+        /* 0%{
+            
+            bottom: 20px;
+        }
+        50%{
+            bottom: -20px;
+        }
+        80%{
+            
+        }
+        100%{
+            
+            
+            bottom: 0px;
+        } */
+    }
+    .beachbg{
+        position: absolute;
+        top: 300%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        height:120%;
+    }
+    #beachbgtext{
+        position: absolute;
+        z-index: 10;
+        left: 36%;
+        top:310%;
+        color: white;
+    }
+    .pinkybeach{
+        position: absolute;
+        top:420%;
+        background-color:#f499b8;
+        width: 100%;
+        left: 0%;
+        text-align: center;
+        height: 60%;
+    }
+    .pinkbeachpic{
+            
+            width: 20%;
+            height: auto;
+            padding: 1%;
+            image-resolution: 10px;
+            
+        }
+    .pinkbeachpics{
+            width: 100%;
+            height: auto;
+            
+    }
+    
+        
+
+        
+</style>
+
+<body>
+    <nav>
+        <p class="nav1">men</p>
+        <p class="nav2">beach</p>
+        <p class="nav3">highlights</p>
+        <p class="nav4">cusine</p>
+        <p class="nav5">attractions</p>
+        <p class="nav6">reviews</p>
+    </nav>
+    <img src="pictures/alapuzha 2.jpg" alt="keralahome" class="landingpic">
+    <!-- <img src="alapuzha3.jpg" alt="shoes" class="shoe"> -->
+    <div class="lptext">
+        <h3 class="lptexthead">Trivandrum</h3>
+        <h2 class="lptexthead">Find New Possibilities</h2>
+        <p class="clsdesc">Trivandrum is one of the rare places in India where modern amenities, cultural heritage and natural splendour meet and complement each other.</p>
+    </div>
+    <div>
+    <img src="pictures/beach2.jpg" alt="beach" class="beachbg">
+    </div>
+    <h2 id="beachbgtext">ONLY IN SUMMER, ONLY IN KOVALAM</h2>
+    <div class="pinkybeach">
+        <h3>SUMMER HIGHLIGHTS</h3>
+        <h4>Out here, there's an endless array of events and adventures in store this summer.</h4>
+        <div class="pinkbeachpics">
+            <img src="pictures/beach6.jpg" alt="beach"  class="pinkbeachpic">
+            <img src="pictures/beach3.jpg" alt="beach"class="pinkbeachpic">
+            <img src="pictures/beach5.jpg" alt="beach" class="pinkbeachpic">
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
